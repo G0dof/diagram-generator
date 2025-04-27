@@ -1,0 +1,19 @@
+[project]
+name = "dfa-diagram"
+version = "0.0.1"
+description = "Default template for PDM package"
+authors = [
+    {name = "g0dof", email = "pedrorocha9@yahoo.com"},
+]
+dependencies = ["graphviz>=0.20.3", "pandas>=2.2.3", "streamlit>=1.44.1"]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
