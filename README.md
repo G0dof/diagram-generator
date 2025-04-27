@@ -31,7 +31,7 @@ A ferramenta é ótima para estudantes e profissionais que trabalham com **Autô
 
 ```bash
 git clone https://github.com/G0dof/diagram-generator
-cd seu-repositorio
+cd diagram-generator
 ```
 
 ### 2. Crie um ambiente virtual (opcional, mas recomendado)
@@ -57,7 +57,7 @@ pdm install
 > **Obs**: Certifique-se de que o `pdm` esteja instalado. Caso não esteja, instale com:
 >
 > ```bash
-> pip install pdm
+> pipx install pdm
 > ```
 
 ### 4. Instale o Graphviz (necessário para gerar o .png)
