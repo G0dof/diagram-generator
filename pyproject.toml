@@ -1,5 +1,5 @@
 [project]
-name = "dfa-diagram"
+name = "diagram-generator"
 version = "0.0.1"
 description = "Default template for PDM package"
 authors = [
