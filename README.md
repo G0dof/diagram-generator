@@ -85,15 +85,3 @@ Depois de instalar tudo:
 ```bash
 pdm run streamlit run src/diagram-generator/main.py
 ```
-
----
-
-## 📂 Estrutura do projeto
-
-```
-src/
-    app.py        # Código principal do Streamlit
-README.md
-pdm.lock
-pyproject.toml
-```
